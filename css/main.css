@@ -52,14 +52,13 @@ body{
 	opacity: 0;
 }
 
-
 @keyframes ship-move {
 	0% {
 		transform: translate(-350px,0) rotate(45deg);
 		opacity: 1;
 	}
 	100% {
-				transform: translate(350px,0) rotate(-45deg);
+		transform: translate(350px,0) rotate(-45deg);
 		opacity: 1;
 	}
 }
@@ -114,8 +113,6 @@ body{
 		opacity: 0.1;
 	}
 }
-
-
 
 @keyframes asteroid-rotate {
 	0% {
