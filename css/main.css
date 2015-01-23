@@ -19,6 +19,14 @@ html {
   box-sizing: inherit;
 }
 
+body{
+	overflow: hidden;
+}
+
+.title {
+	display: none;
+}
+
 .asteroid {
 	width: 300px;
 	position: absolute;
