@@ -159,14 +159,14 @@ body{
 @-webkit-keyframes stars-scale {
 	0%{
 		-webkit-transform: scale(1,1);
-		opacity: 0.1;
+		opacity: 0;
 	}
 	50%{
 		opacity: 1;
 	}
 	100% {
 		-webkit-transform: scale(1.5,1.5);
-		opacity: 0.1;
+		opacity: 0;
 	}
 }
 
@@ -182,4 +182,12 @@ body{
 		transform: scale(1.5,1.5);
 		opacity: 0.1;
 	}
+}
+
+.pew-pew {
+	background-color: #0ff;
+	width: 5px;
+	height: 25px;
+	border-radius: 2.5px;
+	posiiton: absolute;
 }
