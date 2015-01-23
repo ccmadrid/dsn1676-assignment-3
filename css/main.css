@@ -191,8 +191,8 @@ body{
 	left: calc(50% - 20px);
 	width: 40px;
 	height: 20px;
-	border-left: dashed #0ff;
-	border-right: dashed #0ff;
+	border-left: dotted #0ff;
+	border-right: dotted #0ff;
 	position: absolute;
 	-webkit-animation: pew-pew-pew 0.25s linear infinite;
 	animation: pew-pew-pew 200ms linear infinite;
