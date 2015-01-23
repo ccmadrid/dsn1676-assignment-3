@@ -194,7 +194,7 @@ body{
 	border-right: dashed #0ff;
 	position: absolute;
 	-webkit-animation: pew-pew-pew 0.25s linear infinite;
-	animation: pew-pew-pew 0.25s linear infinite;
+	animation: pew-pew-pew 200ms linear infinite;
 
 }
 
