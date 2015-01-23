@@ -37,6 +37,7 @@ body{
 	animation: asteroid-rotate 10s ease-in-out infinite alternate;
 }
 
+
 @-webkit-keyframes asteroid-rotate {
 	0% {
 		-webkit-transform: rotate(0deg);
@@ -71,8 +72,8 @@ body{
 	height: 100px;
 	top: 75vh;
 	left: calc(50% - 50px);
-	-webkit-animation: ship-move 2s linear infinite alternate;
-	animation: ship-move 2s linear infinite alternate;
+	-webkit-animation: ship-move 2s ease-in-out infinite alternate;
+	animation: ship-move 2s ease-in-out infinite alternate;
 	-webkit-animation-delay: 2s;
 	animation-delay: 2s;
 	opacity: 0;
