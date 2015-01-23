@@ -18,3 +18,31 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.asteroid {
+	width: 300px;
+	position: absolute;
+	top: 20vh;
+	left: calc(50% - 150px);
+	-webkit-animation: asteroid-rotate 10s ease-in-out infinite alternate;
+	animation: asteroid-rotate 10s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes asteroid-rotate {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes asteroid-rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
